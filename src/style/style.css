@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: darkblue;
+    color: aliceblue;
+}
+.table-header {
+    display: flex;
+    height: 2.5rem;
+    border: 2px solid white;
+}
+
+.table-header span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-id{
+    flex-basis: 10%;
+    background-color: black;
+}
+.header-firstname {
+    flex-basis: 20%;
+    background-color: brown;
+}
+.header-lastname{
+    flex-basis: 20%;
+    background-color: yellowgreen;
+}
+.header-email{
+    flex-basis: 25%;
+    background-color: darkgrey;
+}
+.header-avatar{
+    flex-basis: 25%;
+    background-color: darkorchid;
+}
+
+.userItem {
+    height: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(45, 126, 153);
+    margin-bottom: .5rem;
+}
+.userID{
+    flex-basis: 10%;
+}
+.userFirstname{
+    flex-basis: 20%;
+}
+.userLastname{
+    flex-basis: 20%;
+}
+.userEmail{
+    flex-basis: 25%;
+}
+.userAvatar{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-avatar img {
+    width: 50%;
+}
+
+.userImage{
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 50%;
+}
